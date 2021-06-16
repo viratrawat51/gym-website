@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
+body {
+  font-family: "Amita", cursive;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  background: url("../asset/images/gym.jpg");
+  background-repeat: no-repeat;
+}
+.left {
+  display: inline-block;
+  border: 2px solid red;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.left img {
+  width: 121px;
+}
+.left div {
+  text-align: center;
+  line-height: 14px;
+  font-size: 22px;
+  font-family: "Amita", cursive;
+}
+.left img div {
+  height: 2px;
+}
+.left:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.mid {
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+  border: 2px solid green;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 19px;
+}
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  color: #117961;
+}
+.right {
+  display: inline-block;
+  border: 2px solid yellow;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: #fff;
+  padding: 4px 14px;
+  border: 2px solid rgb(102, 84, 84);
+  border-radius: 9px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Amita", cursive;
+}
+.btn:hover {
+  background-color: #117961;
+}
+.container {
+  border: 2px solid green;
+  margin: 106px 80px;
+  padding: 75px 75px;
+  width: 33%;
+  border-radius: 2px;
+}
