@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 body {
   font-family: "Amita", cursive;
   color: #fff;
   margin: 0px;
   padding: 0px;
   background: url("../asset/images/gym.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 .left {
   display: inline-block;
-  border: 2px solid red;
   position: absolute;
   left: 60px;
   top: 20px;
@@ -22,6 +22,8 @@ body {
   line-height: 14px;
   font-size: 22px;
   font-family: "Amita", cursive;
+  border: 1px solid white;
+  height: 19px;
 }
 .left img div {
   height: 2px;
@@ -34,7 +36,6 @@ body {
   display: block;
   width: 33%;
   margin: 20px auto;
-  border: 2px solid green;
 }
 .navbar {
   display: inline-block;
@@ -54,7 +55,6 @@ body {
 }
 .right {
   display: inline-block;
-  border: 2px solid yellow;
   position: absolute;
   right: 34px;
   top: 20px;
@@ -69,12 +69,21 @@ body {
   font-size: 20px;
   cursor: pointer;
   font-family: "Amita", cursive;
+  background-color: #117961;
 }
-.btn:hover {
+.btn2 {
+  width: 467px;
+  background-color: black;
+  color: #fff;
+  padding: 4px 14px;
+  border: 2px solid rgb(102, 84, 84);
+  border-radius: 9px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Playball", cursive;
   background-color: #117961;
 }
 .container {
-  border: 2px solid green;
   margin: 106px 80px;
   padding: 75px 75px;
   width: 33%;
@@ -83,12 +92,12 @@ body {
 }
 .form-group input {
   display: block;
-  width: 448px;
+  width: 165px;
   padding: 1px 8px;
   border: 2px solid black;
   margin: 11px auto;
   font-size: 25px;
-  border-radius: 8px;
+  border: 10px;
   font-family: "Amita", cursive;
 }
 .container form {
