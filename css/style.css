@@ -6,16 +6,23 @@ body {
   margin: 0px;
   padding: 0px;
   background: url("../asset/images/gym.jpg");
-  background-repeat: repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 50px;
 }
 .left {
-  display: inline-block;
+  /* display: inline-block;
   position: absolute;
   left: 60px;
-  top: 20px;
+  top: 20px; */
 }
 .left img {
   width: 121px;
+  border-radius: 72px;
 }
 .left div {
   text-align: center;
@@ -33,13 +40,17 @@ body {
   cursor: pointer;
 }
 .mid {
-  display: block;
+  /* display: block;
   width: 33%;
-  margin: 20px auto;
+  margin: 20px auto; */
 }
 .navbar {
   display: inline-block;
 }
+.navbar ul {
+  padding: 0;
+}
+
 .navbar li {
   display: inline-block;
   font-size: 19px;
@@ -47,17 +58,17 @@ body {
 .navbar li a {
   color: #fff;
   text-decoration: none;
-  padding: 34px 23px;
+  padding: 10px 23px;
 }
 .navbar li a:hover {
   text-decoration: underline;
   color: #117961;
 }
 .right {
-  display: inline-block;
+  /* display: inline-block;
   position: absolute;
   right: 34px;
-  top: 20px;
+  top: 20px; */
 }
 .btn {
   margin: 0px 9px;
@@ -92,14 +103,30 @@ body {
 }
 .form-group input {
   display: block;
-  width: 165px;
+  width: 448px;
   padding: 1px 8px;
   border: 2px solid black;
   margin: 11px auto;
   font-size: 25px;
   border: 10px;
   font-family: "Amita", cursive;
+  border-radius: 4px;
 }
 .container form {
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .navbar {
+    text-align: center;
+    padding: 0;
+  }
+  .navbar li a {
+    padding: 5px 10px;
+  }
 }
