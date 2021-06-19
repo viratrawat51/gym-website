@@ -129,4 +129,19 @@ header {
   .navbar li a {
     padding: 5px 10px;
   }
+
+  .container {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-group input {
+    width: 90%;
+  }
+
+  .btn2 {
+    width: 94%;
+  }
 }
